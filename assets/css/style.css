@@ -1,0 +1,18 @@
+body{
+  font-family: 'Roboto', sans-serif;
+
+}
+nav, form{
+  background-color: #28A745;
+}
+form{
+  text-align: center; font-size: 3em;
+}
+.oferta{
+color: #28A745;
+font-size: 2em;
+margin-right: 10%;
+}
+.not-offer{
+  font-size: 1em;
+}

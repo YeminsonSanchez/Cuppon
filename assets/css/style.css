@@ -1,18 +1,87 @@
-body{
-  font-family: 'Roboto', sans-serif;
+:root {
+    --color-success: #28a745;
+    --color-text-grey: #707070;
+    --color-text-black: #212529;
+    --color-text-white: #f8f9fa;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-nav, form{
-  background-color: #28A745;
+
+body {
+    font-family: "Roboto", sans-serif;
 }
-form{
-  text-align: center; font-size: 3em;
+
+nav,
+form {
+    background-color: var(--color-success);
 }
-.oferta{
-color: #28A745;
-font-size: 2em;
-margin-right: 10%;
+#logo {
+    width: 25%;
 }
-.not-offer{
-  font-size: 1em;
+
+@media screen and (max-width: 991px) {
+    #logo {
+        width: 100%;
+    }
+}
+
+form {
+    text-align: center;
+    font-size: 3em;
+}
+
+.ofert {
+    color: var(--color-success);
+    font-size: 1.75rem;
+}
+
+.not-offer {
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+
+.card-title {
+    font-weight: 300;
+}
+
+.card-text {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.address {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+i {
+    font-size: 15px;
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+    color: var(--color-text-grey);
+}
+hr {
+    color: var(--color-text-grey);
+}
+  
+h4 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--color-text-grey);
+}
+
+#logo-footer {
+    width: 50%;
+}
+
+@media screen and (min-width: 991px) {
+    #logo-footer {
+        width: 20%;
+    }
 }
